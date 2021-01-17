@@ -1,4 +1,4 @@
-package ua.apyrih.user;
+package ua.apyrih.domain;
 
 public enum UserRole {
     USER,

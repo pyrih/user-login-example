@@ -1,4 +1,4 @@
-package ua.apyrih.user;
+package ua.apyrih.domain;
 
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
