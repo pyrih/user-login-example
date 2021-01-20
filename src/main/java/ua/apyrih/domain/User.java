@@ -31,8 +31,8 @@ public class User implements UserDetails {
     private String password;
     @Enumerated(EnumType.STRING)
     private UserRole role;
-    private Boolean locked;
-    private Boolean enabled;
+    private Boolean locked = false;
+    private Boolean enabled = false;
 
     public User(String firstName, String lastName, String email, String password, UserRole role) {
         this.firstName = firstName;
