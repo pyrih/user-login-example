@@ -1,4 +1,4 @@
-package ua.apyrih.token;
+package ua.apyrih.domain;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -41,12 +41,10 @@ public class ConfirmationToken {
     public ConfirmationToken(String token,
                              LocalDateTime createdAt,
                              LocalDateTime expiresAt,
-                             LocalDateTime confirmedAt,
                              User user) {
         this.token = token;
         this.createdAt = createdAt;
         this.expiresAt = expiresAt;
-        this.confirmedAt = confirmedAt;
         this.user = user;
     }
 }
