@@ -18,10 +18,10 @@ spring:
     show-sql: true
 
   mail:
-    host: localhost
-    port: 1025
-    username: hello
-    password: hello
+    host: smtp.mailtrap.io
+    port: 2525
+    username:
+    password:
 
     properties:
       mail:
@@ -31,6 +31,6 @@ spring:
           auth: true
           starttls:
             enable: true
-          connectiontimeout: 5000
-          timeout: 3000
-          writetimeout: 5000
+#          connectiontimeout: 5000
+#          timeout: 3000
+#          writetimeout: 5000
